@@ -1,9 +1,9 @@
-
----
----
-
 @import "{{ site.theme }}";
 
 h1{
+	text-align: center;
 	color: red;
+}
+p{
+	background-color: grey;
 }
