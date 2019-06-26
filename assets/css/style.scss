@@ -8,14 +8,32 @@ h1{
 	text-align: center;
 	color: white;
 }
+h2, h3, h4, h5{
+	color: #88A2AA;
+}
 p{
 	background-color: white;
-	border: 2px solid #8e8e8e;
+	border: 2px solid #88A2AA;
   	border-radius: 8px;
-  	margin: 25px 50px;
+  	margin: 25px 25px;
   	padding: 20px;
+  	text-color: #88A2AA;
 }
 body {
   background-color: #ebd6ff;
   padding: 25px;
+}
+
+a:link, a:visited {
+  color: #88A2AA;
+}
+
+/* mouse over link */
+a:hover {
+  color: #2F6690;
+}
+
+/* selected link */
+a:active {
+  color: #2F6690;
 }
