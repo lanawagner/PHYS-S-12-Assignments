@@ -2,4 +2,20 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minima";
+@import "{{ site.theme }}";
+
+h1{
+	text-align: center;
+	color: white;
+}
+p{
+	background-color: white;
+	border: 2px solid #8e8e8e;
+  	border-radius: 8px;
+  	margin: 25px 50px;
+  	padding: 20px;
+}
+body {
+  background-color: #ebd6ff;
+  padding: 25px;
+}
